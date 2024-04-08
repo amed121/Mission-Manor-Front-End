@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png'); /* Replace 'background_image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    width: 100%; /* Image fits the width of the container */
+    height: auto;
+}
+
+.centered-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust spacing */
+}
+
+.task-input {
+    width: 500px; /* Adjust the width of the text input box */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.task-icons {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.task-icons img {
+    width: 30px; /* Reduce the size of the task icons */
+    height: auto;
+}
+
+.carousel-inner img {
+    width: 100%; /* Image fits the width of the carousel */
+    height: auto;
+    padding: 10px;
+}
